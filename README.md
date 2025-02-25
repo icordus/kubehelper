@@ -12,9 +12,12 @@ A simple **Python wrapper for kubectl**, making it easier to interact with Kuber
 ---
 
 ## 📌 Installation
-### 1️⃣ Install via pip (After Publishing to PyPI)
+### 1️⃣ Install from Source
+Clone the repository and install locally:
 ```bash
-pip install kubehelper
+git clone https://github.com/icordus/kubehelper.git
+cd kubehelper
+pip install .
 ```
 ## Running kubehelper.py
 ```bash
