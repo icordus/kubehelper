@@ -15,7 +15,7 @@ A simple **Python wrapper for kubectl**, making it easier to interact with Kuber
 ### 1️⃣ Install via pip (After Publishing to PyPI)
 ```bash
 pip install kubehelper
-
+```
 ## Running kubehelper.py
 ```bash
 ./kubehelper.py get-nodes
@@ -24,3 +24,4 @@ pip install kubehelper
 ./kubehelper.py get-logs my-pod -n default
 ./kubehelper.py apply my-deployment.yaml
 ./kubehelper.py delete-pod my-pod -n default
+```
